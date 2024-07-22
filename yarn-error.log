@@ -1,0 +1,42 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add @nomiclabs/hardhat-polygon --dev
+
+PATH: 
+  C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Python312\Scripts\;C:\Python312\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\ProgramData\chocolatey\bin;C:\Program Files\Calibre2\;C:\Users\tarun\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\HP\HP One Agent;C:\Program Files\Git\cmd;C:\Program Files\Go\bin;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\Users\tarun\AppData\Local\Microsoft\WindowsApps;C:\Users\tarun\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\tarun\AppData\Local\GitHubDesktop\bin;C:\tools\dart-sdk\bin;C:\Users\tarun\AppData\Local\Pub\Cache\bin;C:\Users\tarun\AppData\Roaming\npm;C:\Users\tarun\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\tarun\AppData\Local\Yarn\bin;C:\Program Files\heroku\bin;C:\Users\tarun\AppData\Local\spicetify;C:\Users\tarun\go\bin;C:\Program Files\JetBrains\GoLand 2024.1.4\bin;C:\tools\mysql\current\bin;C:\Users\tarun\AppData\Local\JetBrains\Toolbox\scripts;C:\Program Files\OpenSSL-Win64\bin;C:\MinGW\bin;
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  20.15.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@nomiclabs%2fhardhat-polygon: Not found
+      at params.callback [as _callback] (C:\Program Files (x86)\Yarn\lib\cli.js:66145:18)
+      at self.callback (C:\Program Files (x86)\Yarn\lib\cli.js:140890:22)
+      at Request.emit (node:events:519:28)
+      at Request.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:141862:10)
+      at Request.emit (node:events:519:28)
+      at IncomingMessage.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:141784:12)
+      at Object.onceWrapper (node:events:633:28)
+      at IncomingMessage.emit (node:events:531:35)
+      at endReadableNT (node:internal/streams/readable:1696:12)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+npm manifest: 
+  {
+    "name": "hardhat-project",
+    "devDependencies": {
+      "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+      "hardhat": "^2.22.6"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
