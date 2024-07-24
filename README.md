@@ -31,4 +31,8 @@ Your PC should look something like this:
 
 The 'target' hexadecimal code generated must be copied and pasted to the address in the config.js file in the client part of your project
 
+To refer to the frontend of the website, refer to my team's repository:
+AlertSheMain(https://github.com/SaniaVr/AlertSheMain)
+
+View our app here(https://saniavr.github.io/AlertSheMain/)
 
