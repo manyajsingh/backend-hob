@@ -1,13 +1,33 @@
-# Sample Hardhat Project
-
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
-
-Try running some of the following tasks:
-
+# Backend of the Hack-On-Blocks'24 Project, AlertShe3
+This repository consists of the backend part of the project. It utilizes solidity frameworks and is built on the ZkEvm Polygon Cardona Testnet
+In order to run this, make sure you have the following set up on your system:
+  1. Node
+  2. React
+  3. Solidity
+  4. Metamask
+  5. Alchemy
+  6. Polygon ZkEvm Testnet
+  7. Hardhat
+     ```shell
+    npm install -g hardhat
+    ```
+Run the following command:
 ```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.js
+npm install @nomicfoundation/hardhat-toolbox
 ```
+     
+After the connection of your accounts, clone this repository on your system and upload it on your text editor (eg, VS Code)
+After doing so, create a .env file that contains your private_key and alchemy_api_key
+
+Then run the following:
+```shell
+npm install --force
+npx hardhat compile
+npx hardhat run scripts/deploy.js --network polygonZkEvmTestnet
+```
+Your PC should look something like this:
+![Screenshot 2024-07-23 235142](https://github.com/user-attachments/assets/393564e4-cdf2-4766-840d-a5b2a96df07c)
+
+The 'target' hexadecimal code generated must be copied and pasted to the address in the config.js file in the client part of your project
+
+
