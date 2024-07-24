@@ -10,7 +10,8 @@ In order to run this, make sure you have the following set up on your system:
   7. Hardhat
 ```shell
     npm install -g hardhat
-    ```
+```
+
 Run the following command:
 ```shell
 npm install @nomicfoundation/hardhat-toolbox
